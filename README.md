@@ -1,6 +1,6 @@
 # 图解算法数据结构
 
-[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
+[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
 [![Python](https://img.shields.io/badge/Language-Python3-teal)]()[![Python](https://img.shields.io/badge/Language-Java-orange)]()[![Python](https://img.shields.io/badge/Language-C++-blue)]()
 
