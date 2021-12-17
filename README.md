@@ -1,8 +1,8 @@
 # 图解算法数据结构
 
-[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets) ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20passed%2C%200%20failed-brightgreen)
+[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
-[![Python](https://img.shields.io/badge/Language-Python3-teal)]()[![Python](https://img.shields.io/badge/Language-Java-orange)]()[![Python](https://img.shields.io/badge/Language-C++-blue)]() 
+![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20passed%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp) 
 
 本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
 
@@ -149,9 +149,9 @@
 
 ---
 
-## 精选算法专栏
+## 算法专栏
 
-### [数据结构简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/)
+### 「[数据结构简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/)」
 
 > 建议对数据结构不熟悉的同学，先看这篇熟悉用法。
 
@@ -159,7 +159,7 @@
 - 在算法中，数据结构的「常用操作」；
 - 在 Python3 , Java , C++ 语言中，各数据结构的初始化与构建方法。
 
-### [算法复杂度](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/r84gmi/)
+### 「[算法复杂度](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/r84gmi/)」
 
 > 复杂度是算法优劣性的有力评价指标，对于理解算法起着至关重要的作用。
 
@@ -167,7 +167,7 @@
 - 「时间复杂度」和「空间复杂度」的概念定义、符号表示、常见种类、时空权衡。
 - 时间与空间复杂度的示例解析、示例题目。
 
-### [动态规划](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/m5zfc1/)
+### 「[动态规划](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/m5zfc1/)」
 
 > 动态规划是算法重难点，也是笔面试重要考点，需要重点理解与练习。
 
@@ -176,7 +176,7 @@
 - 动态规划的解题框架总结；
 - 动态规划的练习例题，从易到难排序；
 
-### [排序算法简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/pxal47/)
+### 「[排序算法简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/pxal47/)」
 
 > 排序是最经典的算法问题之一，由浅入深的多种算法涵盖多个算法知识点（例如暴力搜索、分治算法、堆数据结构等）。
 
