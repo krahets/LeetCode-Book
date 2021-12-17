@@ -1,18 +1,16 @@
 # 图解算法数据结构
 
-[![stars](https://img.shields.io/github/stars/krahets/CodingSolution?style=social)](https://github.com/krahets)[![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
+[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
 [![Python](https://img.shields.io/badge/Language-Python3-teal)]()[![Python](https://img.shields.io/badge/Language-Java-orange)]()[![Python](https://img.shields.io/badge/Language-C++-blue)]()
 
-本 Repo 为 LeetBook《图解算法数据结构》配套代码仓库，便于读者 Debug 代码，已全部在 LeetCode 上测试通过。
+本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
 
 [<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" style="zoom:75%;" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
-## 课程介绍
+《图解算法数据结构》面向算法初学者、互联网求职者设计，主要内容包括：
 
-本 LeetBook 面向算法初学者、互联网求职者设计，帮助同学们从零至一地搭建算法知识体系。
-
-### 剑指 Offer 图文题解 
+### 「剑指 Offer 图文题解」
 
 - 图文详解 75 道题目，覆盖主要算法知识点，适合作为学习算法的 **第一份题库** 。
 
@@ -20,7 +18,7 @@
 
 - 作者致力于行文深入浅出、图文搭配，提供简洁的 Python3, Java, C++ 解题代码。
 
-### 数据结构与算法专栏
+### 「数据结构与算法专栏」
 
 - 基础知识： 时间复杂度、空间复杂度等算法知识。
 
@@ -28,7 +26,7 @@
 
 - 算法专题： 分治算法、动态规划、搜索与回溯算法、查找算法、贪心算法、排序、位运算、双指针、模拟、数学。
 
-## 适合人群
+### 适合人群
 
 - 互联网算法、软件岗位求职者。
 - 从零开始接触数据结构与算法的同学。
@@ -188,3 +186,4 @@
 
 ---
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
