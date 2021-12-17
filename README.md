@@ -1,20 +1,20 @@
 # 图解算法数据结构
 
-[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
+[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets) ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20passed%2C%200%20failed-brightgreen)
 
-[![Python](https://img.shields.io/badge/Language-Python3-teal)]()[![Python](https://img.shields.io/badge/Language-Java-orange)]()[![Python](https://img.shields.io/badge/Language-C++-blue)]()
+[![Python](https://img.shields.io/badge/Language-Python3-teal)]()[![Python](https://img.shields.io/badge/Language-Java-orange)]()[![Python](https://img.shields.io/badge/Language-C++-blue)]() 
 
 本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
 
-[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" style="zoom:70%;" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
+[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" style="zoom:65%;" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
 《图解算法数据结构》面向算法初学者、互联网求职者设计，主要内容包括：
 
 ### 「剑指 Offer 图文题解」
 
-- 图文详解 75 道题目，覆盖主要算法知识点，适合作为学习算法的 **第一份题库** 。
+- 图文详解 75 道题目，覆盖主要算法知识点，非常适合作为算法学习的**第一份题库**。
 
-- 题库活跃于各大公司的笔面试中，可使笔面试准备事半功倍。
+- 题库活跃于各大互联网公司招聘中，可使笔面试准备事半功倍。
 
 - 作者致力于行文深入浅出、图文搭配，提供简洁的 Python3, Java, C++ 解题代码。
 
@@ -36,7 +36,7 @@
 
 ## 刷题计划
 
-笔者整理了本刷题计划，核心理念为从易到难、从基础类题目到综合类题目，供希望按照知识点类型顺序刷题的小伙伴们参考。行百里者半九十，坚持一个月刷完，一起加油！
+笔者整理了《剑指 Offer 》刷题计划，核心理念为从易到难、从基础类题目到综合类题目，供希望按照知识点类型顺序刷题的小伙伴们参考。行百里者半九十，坚持一个月刷完，一起加油！
 
 |    日程    | 题目                                              |
 | :--------: | :------------------------------------------------ |
@@ -169,7 +169,7 @@
 
 ### [动态规划](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/m5zfc1/)
 
-> 动态规划是算法重难点，值得重点关注、理解与练习。
+> 动态规划是算法重难点，也是笔面试重要考点，需要重点理解与练习。
 
 - 动态规划问题特点，动态规划和分治算法的联系与区别；
 - 借助例题介绍重叠子问题和最优子结构分别是什么，以及动态规划是如何解决它们的；
