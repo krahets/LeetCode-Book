@@ -6,7 +6,7 @@
 
 本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
 
-[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" style="zoom:75%;" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
+[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" style="zoom:70%;" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
 《图解算法数据结构》面向算法初学者、互联网求职者设计，主要内容包括：
 
