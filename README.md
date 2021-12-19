@@ -4,7 +4,7 @@
 
 ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
 
-本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
+> :green_book: :orange_book: 您的第一本算法题解书 :blue_book: :closed_book:
 
 [<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="370" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
@@ -13,17 +13,13 @@
 ### 「剑指 Offer 图文题解」
 
 - 图文详解 75 道题目，覆盖主要算法知识点，非常适合作为算法学习的**第一份题库**。
-
 - 题库活跃于各大互联网公司招聘中，可使笔面试准备事半功倍。
-
 - 作者致力于行文深入浅出、图文搭配，提供简洁的 Python3, Java, C++ 解题代码。
 
 ### 「数据结构与算法专栏」
 
 - 基础知识： 时间复杂度、空间复杂度等算法知识。
-
 - 数据结构： 数组、栈、队列、字符串、链表、树、图、堆、哈希表。
-
 - 算法专题： 分治算法、动态规划、搜索与回溯算法、查找算法、贪心算法、排序、位运算、双指针、模拟、数学。
 
 ### 适合人群
@@ -31,6 +27,43 @@
 - 互联网算法、软件岗位求职者。
 - 从零开始接触数据结构与算法的同学。
 - 具有一定编程基础，计划系统学习算法的同学。
+
+---
+
+## 算法专栏
+
+### 「[数据结构](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/)」
+
+> 建议对数据结构不熟悉的同学，先看这篇熟悉用法。
+
+- 常用数据结构的**分类**和**基本特点**；
+- 在算法解题中，数据结构的**常用操作**；
+- 在 Python3 , Java , C++ 语言中，各数据结构的**初始化与构建方法**。
+
+### 「[算法复杂度](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/r84gmi/)」
+
+> 复杂度是算法优劣性的有力评价指标，对于理解算法起着至关重要的作用。
+
+- 什么是时间复杂度、空间复杂度？
+- 时间复杂度和空间复杂度的**概念定义**、**符号表示**、**常见种类**、**时空权衡**。
+- 时间与空间复杂度的**示例题目与解析**。
+
+### 「[动态规划](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/m5zfc1/)」
+
+> 动态规划是算法重难点，也是笔面试重要考点，需要重点理解与练习。
+
+- 动态规划问题特点，动态规划和分治算法的联系与区别；
+- 借助例题介绍**重叠子问题**和**最优子结构**分别是什么，以及动态规划是如何解决它们的；
+- 动态规划的**解题框架**总结；
+- 动态规划的**练习例题**，从易到难排序；
+
+### 「[排序算法](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/pxal47/)」
+
+> 排序是最经典的算法问题之一，由浅入深的多种算法涵盖多个算法知识点（例如暴力搜索、分治算法、堆数据结构等）。
+
+- 排序算法分类方法，包括稳定性 、就地性 、自适应性；
+- 排序算法与二分查找、双指针算法之间的关系；
+- 各主要排序算法的时间复杂度与空间复杂度；
 
 ---
 
@@ -146,43 +179,6 @@
 |            | [剑指 Offer 14- II. 剪绳子 II](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/5vcapc/)                  |
 |            | [剑指 Offer 43. 1～n 整数中 1 出现的次数](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/572jxs/)       |
 |            | [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/57vzfh/)         |
-
----
-
-## 算法专栏
-
-### 「[数据结构简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/)」
-
-> 建议对数据结构不熟悉的同学，先看这篇熟悉用法。
-
-- 常用数据结构「分类」和「基本特点」；
-- 在算法中，数据结构的「常用操作」；
-- 在 Python3 , Java , C++ 语言中，各数据结构的初始化与构建方法。
-
-### 「[算法复杂度](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/r84gmi/)」
-
-> 复杂度是算法优劣性的有力评价指标，对于理解算法起着至关重要的作用。
-
-- 什么是时间复杂度、空间复杂度？
-- 「时间复杂度」和「空间复杂度」的概念定义、符号表示、常见种类、时空权衡。
-- 时间与空间复杂度的示例解析、示例题目。
-
-### 「[动态规划](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/m5zfc1/)」
-
-> 动态规划是算法重难点，也是笔面试重要考点，需要重点理解与练习。
-
-- 动态规划问题特点，动态规划和分治算法的联系与区别；
-- 借助例题介绍重叠子问题和最优子结构分别是什么，以及动态规划是如何解决它们的；
-- 动态规划的解题框架总结；
-- 动态规划的练习例题，从易到难排序；
-
-### 「[排序算法简介](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/pxal47/)」
-
-> 排序是最经典的算法问题之一，由浅入深的多种算法涵盖多个算法知识点（例如暴力搜索、分治算法、堆数据结构等）。
-
-- 排序算法分类方法，包括稳定性 、就地性 、自适应性；
-- 排序算法与二分查找、双指针算法之间的关系；
-- 各主要排序算法的时间复杂度与空间复杂度；
 
 ---
 
