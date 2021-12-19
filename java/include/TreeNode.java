@@ -14,6 +14,11 @@ public class TreeNode {
         val = x;
     }
 
+    /**
+     * Generate a binary tree with an array
+     * @param arr
+     * @return
+     */
     public static TreeNode arrToTree(Integer[] arr) {
         TreeNode root = new TreeNode(arr[0]);
         Queue<TreeNode> queue = new LinkedList<>() {{ add(root); }};
@@ -34,6 +39,11 @@ public class TreeNode {
         return root;
     }
 
+    /**
+     * Serialize a binary tree to a list
+     * @param root
+     * @return
+     */
     public static List<Integer> treeToList(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if(root == null) return list;
@@ -51,7 +61,13 @@ public class TreeNode {
         }
         return list;
     }
-        
+    
+    /**
+     * Get a tree node with specific value in a binary tree
+     * @param root
+     * @param val
+     * @return
+     */
     public static TreeNode getTreeNode(TreeNode root, int val) {
         if (root == null)
             return null;

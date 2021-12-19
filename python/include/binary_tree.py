@@ -6,16 +6,25 @@ Author: Krahets (krahets@163.com)
 
 import collections
 
-# Definition for a binary tree node
 class TreeNode:
+    """Definition for a binary tree node
+    """    
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-# Construct a tree from an array
 def list_to_tree(arr):
-    if not arr: return
+    """Generate a binary tree with a list
+
+    Args:
+        arr ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """
+    if not arr:
+        return
     i = 1
     root = TreeNode(int(arr[0]))
     queue = collections.deque()
@@ -32,8 +41,15 @@ def list_to_tree(arr):
         i += 1
     return root
 
-# Serialize a tree into an array
 def tree_to_list(root):
+    """Serialize a tree into an array
+
+    Args:
+        root ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     if not root: return []
     queue = collections.deque()
     queue.append(root)
@@ -47,8 +63,16 @@ def tree_to_list(root):
         else: res.append(None)
     return res
 
-# Find the first tree node with val
 def get_tree_node(root, val):
+    """Get a tree node with specific value in a binary tree
+
+    Args:
+        root ([type]): [description]
+        val ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     if not root:
         return
     if root.val == val:

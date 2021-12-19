@@ -1,5 +1,5 @@
 '''
-File: sfo_35_clone_a_linked_list_with_next_and_random_pointer_s4.py
+File: sfo_35_clone_a_linked_list_with_next_and_random_pointer_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
 '''

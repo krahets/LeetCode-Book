@@ -7,21 +7,33 @@ Author: Krahets (krahets@163.com)
 from .binary_tree import TreeNode, tree_to_list
 from .linked_list import ListNode, linked_list_to_list
 
-# Print a matrix
 def print_matrix(mat):
+    """Print a matrix
+
+    Args:
+        mat ([type]): [description]
+    """    
     pstr = []
     for arr in mat:
         pstr.append('  ' + str(arr))
 
     print('[\n' + ',\n'.join(pstr) + '\n]')
 
-# Print a linked list
 def print_linked_list(head):
+    """Print a linked list
+
+    Args:
+        head ([type]): [description]
+    """    
     arr = linked_list_to_list(head)
     print(' -> '.join([str(a) for a in arr]))
 
-# Print a binary tree (90º counter-clockwise rotated)
 def print_tree(root):
+    """Print a binary tree (90º counter-clockwise rotated)
+
+    Args:
+        root ([type]): [description]
+    """    
     def helper(root, level):
         if not root:
             return

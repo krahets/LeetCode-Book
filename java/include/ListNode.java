@@ -3,7 +3,7 @@ package include;
 import java.util.List;
 
 /**
- * Definition for a singly-linked list node.
+ * Definition for a singly-linked list node
  */
 public class ListNode {
     public int val;
@@ -12,7 +12,12 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
-
+    
+    /**
+     * Generate a linked list with an array
+     * @param arr
+     * @return
+     */
     public static ListNode arrToLinkedList(int[] arr) {
         ListNode dum = new ListNode(0);
         ListNode head = dum;
@@ -23,6 +28,12 @@ public class ListNode {
         return dum.next;
     }
 
+    /**
+     * Get a list node with specific value from a linked list
+     * @param head
+     * @param val
+     * @return
+     */
     public static ListNode getListNode(ListNode head, int val) {
         while (head != null && head.val != val) {
             head = head.next;

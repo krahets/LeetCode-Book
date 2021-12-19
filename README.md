@@ -2,7 +2,7 @@
 
 [![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
-![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20passed%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp) 
+![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
 
 本 Repo 为 LeetBook《图解算法数据结构》的配套代码仓，全部代码已在本地与 LeetCode 测试通过。
 

@@ -1,5 +1,5 @@
 /*
-* File: sfo_35_clone_a_linked_list_with_next_and_random_pointer_s5.java
+* File: sfo_35_clone_a_linked_list_with_next_and_random_pointer_s2.java
 * Created Time: 2021-12-09
 * Author: Krahets (krahets@163.com)
 */
