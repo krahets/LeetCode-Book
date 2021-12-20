@@ -1,4 +1,4 @@
-# :green_book: :orange_book: 图解算法数据结构 :blue_book: :closed_book:
+# :book: 图解算法数据结构 
 
 [![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
@@ -8,20 +8,20 @@
 
 LeetBook《图解算法数据结构》面向算法初学者、互联网求职者设计，主要内容包括：
 
-### 「剑指 Offer 图文题解」
+### :green_book: 剑指 Offer 图文题解
 
 - 图文详解 75 道题目，覆盖主要算法知识点，非常适合作为算法学习的**第一份题库**。
 - 题库活跃于各大互联网公司招聘中，可使笔面试准备事半功倍。
 - 致力于行文深入浅出、图文搭配，提供简洁的 **Python3, Java, C++** 解题代码。
 - 笔者整理了 **30 天刷题计划**、**题目分类**，让刷题有迹可循。
 
-### 「数据结构与算法专栏」
+### :blue_book: 数据结构与算法专栏
 
 - **基础知识：** 时间复杂度、空间复杂度等算法知识。
 - **数据结构：** 数组、栈、队列、字符串、链表、树、图、堆、哈希表。
 - **算法专题：** 分治算法、动态规划、搜索与回溯算法、查找算法、贪心算法、排序、位运算、双指针、模拟、数学。
 
-## 适合人群
+## :student: 适合人群
 
 - 互联网算法、软件岗位求职者。
 - 从零开始接触数据结构与算法的同学。
@@ -29,7 +29,7 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
 
 ---
 
-## 算法专栏
+## :ledger: 算法专栏
 
 ### 「[数据结构](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/50e446/)」
 
@@ -66,7 +66,7 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
 
 ---
 
-## 刷题计划
+## :hourglass: 刷题计划
 
 笔者整理了《剑指 Offer 》刷题计划，核心理念为从易到难、从基础类题目到综合类题目，供希望按照知识点类型顺序刷题的小伙伴们参考。行百里者半九十，坚持一个月刷完，一起加油！
 
@@ -180,5 +180,7 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
 |            | [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/57vzfh/)         |
 
 ---
+
+若本书对您有所帮助，麻烦请您点个 Star :star: 啦，谢谢！
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
