@@ -1,10 +1,8 @@
-# 图解算法数据结构
+# :green_book: :orange_book: 图解算法数据结构 :blue_book: :closed_book:
 
 [![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
 
 ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
-
-> :green_book: :orange_book: 您的第一本算法题解 :blue_book: :closed_book:
 
 [<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="370" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
