@@ -37,7 +37,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<vector<int>> res = slt->findContinuousSequence(target);
-    printVectorMatrix(res);
+    PrintUtil::printVectorMatrix(res);
     
     return 0;
 }

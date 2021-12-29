@@ -35,7 +35,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<vector<int>> res = slt->pathSum(root, sum);
-    printVectorMatrix(res);
+    PrintUtil::printVectorMatrix(res);
     
     return 0;
 }

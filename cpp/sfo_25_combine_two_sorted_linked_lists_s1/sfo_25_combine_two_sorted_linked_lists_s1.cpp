@@ -35,7 +35,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     ListNode* res = slt->mergeTwoLists(l1, l2);
-    printLinkedList(res);
+    PrintUtil::printLinkedList(res);
     
     return 0;
 }

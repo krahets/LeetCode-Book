@@ -40,7 +40,7 @@ int main() {
     res.push_back(maxQueue->max_value());
     res.push_back(maxQueue->pop_front());
     res.push_back(maxQueue->max_value());
-    printVector(res);
+    PrintUtil::printVector(res);
 
     return 0;
 }

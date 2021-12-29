@@ -27,7 +27,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     ListNode* res = slt->reverseList(head);
-    printLinkedList(res);
+    PrintUtil::printLinkedList(res);
     
     return 0;
 }

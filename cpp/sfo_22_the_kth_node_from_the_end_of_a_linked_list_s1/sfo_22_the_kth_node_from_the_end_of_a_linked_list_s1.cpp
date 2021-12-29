@@ -28,7 +28,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     ListNode* res = slt->getKthFromEnd(head, k);
-    printLinkedList(res);
+    PrintUtil::printLinkedList(res);
     
     return 0;
 }

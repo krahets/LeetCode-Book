@@ -41,7 +41,7 @@ int main() {
     cQueue->appendTail(2);
     res.push_back(cQueue->deleteHead());
     res.push_back(cQueue->deleteHead());
-    printVector(res);
+    PrintUtil::printVector(res);
 
     return 0;
 }

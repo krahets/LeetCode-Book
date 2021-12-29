@@ -75,6 +75,6 @@ int main() {
     Codec* codec = new Codec();
     TreeNode* root = codec->deserialize(data);
     string res = codec->serialize(root);
-    printTree(root);
+    PrintUtil::printTree(root);
     cout << res << endl;
 }

@@ -31,7 +31,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<int> res = slt->levelOrder(root);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

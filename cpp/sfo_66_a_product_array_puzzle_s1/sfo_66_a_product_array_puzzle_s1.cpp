@@ -32,7 +32,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<int> res = slt->constructArr(a);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

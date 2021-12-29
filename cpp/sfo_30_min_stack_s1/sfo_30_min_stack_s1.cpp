@@ -40,7 +40,7 @@ int main() {
     minStack->pop();
     res.push_back(minStack->top());
     res.push_back(minStack->min());
-    printVector(res);
+    PrintUtil::printVector(res);
 
     return 0;
 }

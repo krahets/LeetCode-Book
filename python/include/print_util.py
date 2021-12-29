@@ -28,16 +28,46 @@ def print_linked_list(head):
     arr = linked_list_to_list(head)
     print(' -> '.join([str(a) for a in arr]))
 
-def print_tree(root):
-    """Print a binary tree (90º counter-clockwise rotated)
 
+class Trunk:
+    def __init__(self, prev=None, str=None):
+        self.prev = prev
+        self.str = str
+ 
+def showTrunks(p):
+    if p is None:
+        return
+    showTrunks(p.prev)
+    print(p.str, end='')
+ 
+def print_tree(root, prev=None, isLeft=False):
+    """Print a binary tree
+       This tree printer is borrowed from TECHIE DELIGHT
+       https://www.techiedelight.com/c-program-print-binary-tree/
     Args:
         root ([type]): [description]
-    """    
-    def helper(root, level):
-        if not root:
-            return
-        helper(root.right, level + 1)
-        print(' ' * 4 * level + '->', root.val)
-        helper(root.left, level + 1)
-    helper(root, 0)
+        prev ([type], optional): [description]. Defaults to None.
+        isLeft (bool, optional): [description]. Defaults to False.
+    """
+    if root is None:
+        return
+ 
+    prev_str = '    '
+    trunk = Trunk(prev, prev_str)
+    print_tree(root.right, trunk, True)
+ 
+    if prev is None:
+        trunk.str = '———'
+    elif isLeft:
+        trunk.str = '/———'
+        prev_str = '   |'
+    else:
+        trunk.str = '\———'
+        prev.str = prev_str
+ 
+    showTrunks(trunk)
+    print(' ' + str(root.val))
+    if prev:
+        prev.str = prev_str
+    trunk.str = '   |'
+    print_tree(root.left, trunk, False)

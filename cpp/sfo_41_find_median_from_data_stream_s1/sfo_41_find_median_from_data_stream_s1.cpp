@@ -37,7 +37,7 @@ int main() {
     res.push_back(medianFinder->findMedian());
     medianFinder->addNum(3);
     res.push_back(medianFinder->findMedian());
-    printVector(res);
+    PrintUtil::printVector(res);
 
     return 0;
 }

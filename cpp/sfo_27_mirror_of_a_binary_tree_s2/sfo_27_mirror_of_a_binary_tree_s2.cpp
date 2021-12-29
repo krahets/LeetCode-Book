@@ -33,7 +33,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     TreeNode* res = slt->mirrorTree(root);
-    printTree(res);
+    PrintUtil::printTree(res);
     
     return 0;
 }

@@ -37,7 +37,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<string> res = slt->permutation(s);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

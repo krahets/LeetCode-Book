@@ -2,6 +2,16 @@ package include;
 
 import java.util.*;
 
+class Trunk {
+    Trunk prev;
+    String str;
+
+    Trunk(Trunk prev, String str) {
+        this.prev = prev;
+        this.str = str;
+    }
+};
+
 public class PrintUtil {
     /**
      * Print a linked list
@@ -17,23 +27,58 @@ public class PrintUtil {
     }
 
     /**
-     * Print a binary tree (90º counter-clockwise rotated)
+     * The interface of the tree printer
+     * This tree printer is borrowed from TECHIE DELIGHT
+     * https://www.techiedelight.com/c-program-print-binary-tree/
      * @param root
      */
     public static void printTree(TreeNode root) {
-        printTreeHelper(root, 0);
+        printTree(root, null, false);
     }
 
     /**
-     * Print helper for binary tree
+     * Print a binary tree
      * @param root
-     * @param level
+     * @param prev
+     * @param isLeft
      */
-    private static void printTreeHelper(TreeNode root, int level) {
-        if (root == null)
+    public static void printTree(TreeNode root, Trunk prev, boolean isLeft) {
+        if (root == null) {
             return;
-        printTreeHelper(root.right, level + 1);
-        System.out.println(" ".repeat(4 * level) + "->" + root.val);
-        printTreeHelper(root.left, level + 1);
+        }
+
+        String prev_str = "    ";
+        Trunk trunk = new Trunk(prev, prev_str);
+
+        printTree(root.right, trunk, true);
+
+        if (prev == null) {
+            trunk.str = "———";
+        } else if (isLeft) {
+            trunk.str = "/———";
+            prev_str = "   |";
+        } else {
+            trunk.str = "\\———";
+            prev.str = prev_str;
+        }
+
+        showTrunks(trunk);
+        System.out.println(" " + root.val);
+
+        if (prev != null) {
+            prev.str = prev_str;
+        }
+        trunk.str = "   |";
+
+        printTree(root.left, trunk, false);
+    }
+
+    public static void showTrunks(Trunk p) {
+        if (p == null) {
+            return;
+        }
+
+        showTrunks(p.prev);
+        System.out.print(p.str);
     }
 }

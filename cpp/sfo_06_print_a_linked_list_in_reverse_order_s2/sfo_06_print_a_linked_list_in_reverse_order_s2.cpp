@@ -30,7 +30,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<int> res = slt->reversePrint(head);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

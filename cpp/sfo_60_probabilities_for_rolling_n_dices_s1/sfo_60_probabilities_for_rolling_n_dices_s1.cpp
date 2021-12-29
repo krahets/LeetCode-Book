@@ -30,7 +30,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<double> res = slt->dicesProbability(n);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

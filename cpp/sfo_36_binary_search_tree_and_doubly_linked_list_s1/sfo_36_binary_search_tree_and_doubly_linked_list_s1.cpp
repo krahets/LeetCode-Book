@@ -63,7 +63,7 @@ int main() {
         nodesVal.push_back(res->val);
         res = res->right;
     }
-    cout << join(" <-> ", nodesVal) << endl;
+    cout << PrintUtil::strJoin(" <-> ", nodesVal) << endl;
     
     return 0;
 }

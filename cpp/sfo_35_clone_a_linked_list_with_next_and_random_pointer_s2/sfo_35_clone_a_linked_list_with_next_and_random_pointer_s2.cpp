@@ -84,9 +84,9 @@ int main() {
     for (int i = 0; i < nodeListNew.size(); i++) {
         Node* node = nodeListNew[i];
         printArr[i][0] = node->val;
-        printArr[i][1] = vecFind(nodeListNew, node->random);
+        printArr[i][1] = PrintUtil::vecFind(nodeListNew, node->random);
     }
-    printVectorMatrix(printArr);
+    PrintUtil::printVectorMatrix(printArr);
     
     return 0;
 }

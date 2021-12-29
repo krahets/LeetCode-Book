@@ -29,7 +29,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<int> res = slt->singleNumbers(nums);
-    printVector(res);
+    PrintUtil::printVector(res);
     
     return 0;
 }

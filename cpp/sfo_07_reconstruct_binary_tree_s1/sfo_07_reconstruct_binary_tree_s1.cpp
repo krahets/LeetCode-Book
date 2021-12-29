@@ -35,7 +35,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     TreeNode* res = slt->buildTree(preorder, inorder);
-    printTree(res);
+    PrintUtil::printTree(res);
     
     return 0;
 }

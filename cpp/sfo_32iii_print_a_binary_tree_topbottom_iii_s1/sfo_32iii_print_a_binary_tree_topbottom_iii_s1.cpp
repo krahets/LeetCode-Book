@@ -50,7 +50,7 @@ int main() {
     // ====== Driver Code ======
     Solution* slt = new Solution();
     vector<vector<int>> res = slt->levelOrder(root);
-    printVectorMatrix(res);
+    PrintUtil::printVectorMatrix(res);
     
     return 0;
 }
