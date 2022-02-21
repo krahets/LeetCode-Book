@@ -46,7 +46,7 @@ class Solution {
 public class sfo_36_binary_search_tree_and_doubly_linked_list_s1 {
     public static void main(String[] args) {
         // ======= Test Case =======
-        List<Node> nodeList = new ArrayList<>() {{
+        List<Node> nodeList = new ArrayList<Node>() {{
             add(new Node(1));
             add(new Node(2));
             add(new Node(3));

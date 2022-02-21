@@ -13,7 +13,7 @@ import java.util.*;
 class Solution {
     public TreeNode mirrorTree(TreeNode root) {
         if(root == null) return null;
-        Stack<TreeNode> stack = new Stack<>() {{ add(root); }};
+        Stack<TreeNode> stack = new Stack<TreeNode>() {{ add(root); }};
         while(!stack.isEmpty()) {
             TreeNode node = stack.pop();
             if(node.left != null) stack.add(node.left);

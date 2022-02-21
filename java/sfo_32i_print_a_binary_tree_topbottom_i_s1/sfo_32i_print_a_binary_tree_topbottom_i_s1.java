@@ -13,7 +13,7 @@ import java.util.*;
 class Solution {
     public int[] levelOrder(TreeNode root) {
         if(root == null) return new int[0];
-        Queue<TreeNode> queue = new LinkedList<>(){{ add(root); }};
+        Queue<TreeNode> queue = new LinkedList<TreeNode>(){{ add(root); }};
         ArrayList<Integer> ans = new ArrayList<>();
         while(!queue.isEmpty()) {
             TreeNode node = queue.poll();
