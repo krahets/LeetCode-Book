@@ -1,8 +1,8 @@
-# :book: 图解算法数据结构 
-
-[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![followers](https://img.shields.io/github/followers/krahets?style=social)](https://github.com/krahets)
+# :book: 图解算法数据结构
 
 ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
+
+[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book)
 
 [<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="370" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
@@ -183,4 +183,6 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
 
 若本书对您有所帮助，麻烦请您点个 Star :star: 啦，谢谢！
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+## License
+
+This work is licensed under CC-BY-SA-4.0 license.
