@@ -1,45 +1,24 @@
-# :book: 图解算法数据结构
+[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 
 ![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
 
-[![stars](https://img.shields.io/github/stars/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book) [![forks](https://img.shields.io/github/forks/krahets/LeetCode-Book?style=social)](https://github.com/krahets/LeetCode-Book)
+[LeetBook《图解算法数据结构》](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)是一本面向算法初学者、互联网求职者编写的算法题目解析手册。
 
-[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="370" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
-
-LeetBook《图解算法数据结构》面向算法初学者、互联网求职者设计，主要内容包括：
-
-### :green_book: 剑指 Offer 图文题解
-
-- 图文详解 75 道题目，覆盖主要算法知识点，非常适合作为算法学习的 **第一份题库** 。
-- 题库活跃于各大互联网公司招聘中，可使笔面试准备事半功倍。
+- 图文详解《剑指 Offer》的所有题目，题库活跃于各大互联网公司笔面试。
 - 行文深入浅出、图文搭配，提供简洁的 **Python, Java, C++** 解题代码。
 - 提供 **30 天刷题计划**、**题目分类**，让刷题有迹可循。
 
-### :blue_book: 基础知识与算法专题
-
-- **基础知识：** 时间复杂度、空间复杂度的概念与推算方法。
-- **数据结构：** 数组、栈、队列、字符串、链表、树、图、堆、哈希表的基本用法。
-- **算法专题：** 分治算法、动态规划、搜索与回溯、查找算法、贪心算法、排序、位运算、双指针、模拟、数学。
-
-## :student: 适合人群
-
-- 互联网算法、软件岗位求职者。
-- 从零开始接触数据结构与算法的同学。
-- 具有一定编程基础，计划系统学习算法的同学。
+> 若本 LeetBook 对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
 
 ---
-
-# 算法学习路线
-
-## :book: 第一步：算法快速入门
-
-如果您是算法初学者，建议先读一本算法入门书，可大幅提升 :rocket: 刷题效率。 
 
 <p align="left">
   <a href="https://www.hello-algo.com/">
     <img src="https://pic.leetcode.cn/1670004905-lAqTkA-hello-algo_1280_640.jpg" width="400">
   </a>
 </p>
+
+如果您是算法初学者，推荐阅读《Hello 算法》，夯实基础，可大幅提升刷题效率。 
 
 <p align="left">
   <em>
@@ -59,9 +38,9 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
   </em>
 </p>
 
-## :hourglass: 第二步：按计划刷题
+---
 
-本《剑指 Offer》刷题计划已被[力扣（LeetCode）官方题单](https://leetcode.cn/study-plan/lcof/)采用，理念为从易到难、从基础类题目到综合类题目。
+本《剑指 Offer》刷题计划已被[力扣（LeetCode）官方题单](https://leetcode.cn/study-plan/lcof/)采用。
 
 行百里者半九十，坚持一个月刷完，一起加油！
 
@@ -175,8 +154,6 @@ LeetBook《图解算法数据结构》面向算法初学者、互联网求职者
 |            | [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/57vzfh/)         |
 
 ---
-
-若本书对您有所帮助，麻烦请您点个 Star :star: 啦，谢谢！
 
 ## License
 
