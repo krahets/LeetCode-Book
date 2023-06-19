@@ -1,42 +1,44 @@
-[<img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="500" />](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
+<p align="center">
+  <a href="https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/">
+    <img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="490">
+  </a>
+</p>
 
-![leetcode-tests](https://img.shields.io/badge/LeetCode%20tests-75%20accepted%2C%200%20failed-brightgreen) [![Python](https://img.shields.io/badge/Language-Python3-teal)](https://github.com/krahets/LeetCode-Book/tree/main/python) [![Java](https://img.shields.io/badge/Language-Java-orange)](https://github.com/krahets/LeetCode-Book/tree/main/java) [![C++](https://img.shields.io/badge/Language-C++-blue)](https://github.com/krahets/LeetCode-Book/tree/main/cpp)
+<p align="center">
+  <img src="https://img.shields.io/badge/LeetCode%20tests-75%20accepted-brightgreen">
+  <img src="https://img.shields.io/badge/Language-Python-teal">
+  <img src="https://img.shields.io/badge/Language-Java-orange">
+  <img src="https://img.shields.io/badge/Language-C++-blue">
+</p>
 
-[LeetBook《图解算法数据结构》](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)是一本面向算法初学者、互联网求职者编写的算法题目解析手册。
+[《图解算法数据结构》](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)是一本面向算法初学者和互联网求职者编写的 LeetBook 手册。
 
-- 图文详解《剑指 Offer》的所有题目，题库活跃于各大互联网公司笔面试。
-- 行文深入浅出、图文搭配，提供简洁的 **Python, Java, C++** 解题代码。
-- 提供 **30 天刷题计划**、**题目分类**，让刷题有迹可循。
+- 图文并茂地讲解《剑指 Offer》75 道题目，题库活跃于各大互联网公司笔面试。
+- 重点解析部分算法知识，包括复杂度分析、数据结构、排序算法和动态规划等。
+- 提供简洁的 Python, Java, C++ 解题代码和一个月刷题计划，让刷题有迹可循。
 
 > 若本 LeetBook 对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
 
 ---
 
-<p align="left">
-  <a href="https://www.hello-algo.com/">
-    <img src="https://pic.leetcode.cn/1670004905-lAqTkA-hello-algo_1280_640.jpg" width="400">
-  </a>
+<p align="center">
+  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="200">
+  <img src="https://www.hello-algo.com/index.assets/hello_algo_knowledge_map_tp.png" width="310">
 </p>
 
-如果您是算法初学者，推荐阅读《Hello 算法》，夯实基础，可大幅提升刷题效率。 
-
-<p align="left">
-  <em>
-    前往阅读 >
-    <a href="https://www.hello-algo.com/">
-    hello-algo.com
-    </a>
-  </em>
+<p align="center">
+  推荐算法初学者阅读《Hello 算法》，夯实基础后可大幅提升刷题效率
 </p>
 
-<p align="left">
-  <em>
+<p align="center">
+  <a href="https://github.com/krahets/hello-algo">
     前往仓库 >
-    <a href="https://github.com/krahets/hello-algo">
-    github.com/krahets/hello-algo
-    </a>
-  </em>
-</p>
+  </a>
+  &nbsp; &nbsp;
+  <a href="https://www.hello-algo.com/">
+    在线阅读 >
+  </a>
+</p> 
 
 ---
 
