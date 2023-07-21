@@ -22,8 +22,8 @@
 ---
 
 <p align="center">
-  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="200">
-  <img src="https://www.hello-algo.com/index.assets/hello_algo_knowledge_map_tp.png" width="310">
+  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="175">
+  <img src="https://www.hello-algo.com/index.assets/hello_algo_mindmap_tp.png" width="280">
 </p>
 
 <p align="center">
