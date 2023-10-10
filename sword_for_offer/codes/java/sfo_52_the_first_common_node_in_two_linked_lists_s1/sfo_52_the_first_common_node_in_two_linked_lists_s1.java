@@ -26,7 +26,7 @@ public class sfo_52_the_first_common_node_in_two_linked_lists_s1 {
         // ======= Test Case =======
         // Build two linked lists with intersection of 8
         // headA = 4 -> 1 -> 8 -> 4 -> 5
-        //                   ↑
+        // ↑
         // headB = 5 -> 0 -> 1
         ListNode headA = ListNode.arrToLinkedList(new int[] { 4, 1, 8, 4, 5 });
         ListNode headB = ListNode.arrToLinkedList(new int[] { 5, 0, 1, 8, 4, 5 });

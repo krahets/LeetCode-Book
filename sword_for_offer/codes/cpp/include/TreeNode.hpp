@@ -8,35 +8,36 @@
 
 /**
  * @brief Definition for a binary tree node
- * 
+ *
  */
 struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {
+    }
 };
 
 /**
  * @brief Generate a binary tree with a vector
- * 
- * @param list 
- * @return TreeNode* 
+ *
+ * @param list
+ * @return TreeNode*
  */
-TreeNode* vectorToTree(vector<int> list) {
+TreeNode *vectorToTree(vector<int> list) {
     TreeNode *root = new TreeNode(list[0]);
-    queue<TreeNode*> que;
+    queue<TreeNode *> que;
     que.emplace(root);
     int i = 1;
-    while(!que.empty()) {
+    while (!que.empty()) {
         TreeNode *node = que.front();
         que.pop();
-        if(list[i] != INT_MAX) {
+        if (list[i] != INT_MAX) {
             node->left = new TreeNode(list[i]);
             que.emplace(node->left);
         }
         i++;
-        if(list[i] != INT_MAX) {
+        if (list[i] != INT_MAX) {
             node->right = new TreeNode(list[i]);
             que.emplace(node->right);
         }
@@ -47,12 +48,12 @@ TreeNode* vectorToTree(vector<int> list) {
 
 /**
  * @brief Get a tree node with specific value in a binary tree
- * 
- * @param root 
- * @param val 
- * @return TreeNode* 
+ *
+ * @param root
+ * @param val
+ * @return TreeNode*
  */
-TreeNode* getTreeNode(TreeNode *root, int val) {
+TreeNode *getTreeNode(TreeNode *root, int val) {
     if (root == nullptr)
         return nullptr;
     if (root->val == val)

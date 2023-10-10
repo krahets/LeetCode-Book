@@ -15,6 +15,7 @@ class Trunk {
 public class PrintUtil {
     /**
      * Print a linked list
+     * 
      * @param head
      */
     public static void printLinkedList(ListNode head) {
@@ -30,6 +31,7 @@ public class PrintUtil {
      * The interface of the tree printer
      * This tree printer is borrowed from TECHIE DELIGHT
      * https://www.techiedelight.com/c-program-print-binary-tree/
+     * 
      * @param root
      */
     public static void printTree(TreeNode root) {
@@ -38,6 +40,7 @@ public class PrintUtil {
 
     /**
      * Print a binary tree
+     * 
      * @param root
      * @param prev
      * @param isLeft

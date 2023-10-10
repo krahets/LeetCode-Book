@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_58-ii_left_rotation_of_a_string_s2.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -14,7 +15,8 @@ class Solution:
             res.append(s[i])
         for i in range(n):
             res.append(s[i])
-        return ''.join(res)
+        return "".join(res)
+
 
 # ======= Test Case =======
 s = "abcdefg"

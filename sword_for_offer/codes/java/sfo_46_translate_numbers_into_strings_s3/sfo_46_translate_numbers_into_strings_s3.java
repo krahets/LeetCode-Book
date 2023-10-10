@@ -13,7 +13,7 @@ import java.util.*;
 class Solution {
     public int translateNum(int num) {
         int a = 1, b = 1, x, y = num % 10;
-        while(num > 9) {
+        while (num > 9) {
             num /= 10;
             x = num % 10;
             int tmp = 10 * x + y;

@@ -1,19 +1,20 @@
 /*
-* File: sfo_41_find_median_from_data_stream_s1.cpp
-* Created Time: 2021-12-09
-* Author: Krahets (krahets@163.com)
-*/
+ * File: sfo_41_find_median_from_data_stream_s1.cpp
+ * Created Time: 2021-12-09
+ * Author: Krahets (krahets@163.com)
+ */
 
 #include "../include/include.hpp"
 
 // ===== Solution Code =====
 class MedianFinder {
-public:
+  public:
     priority_queue<int, vector<int>, greater<int>> A; // 小顶堆，保存较大的一半
-    priority_queue<int, vector<int>, less<int>> B; // 大顶堆，保存较小的一半
-    MedianFinder() { }
+    priority_queue<int, vector<int>, less<int>> B;    // 大顶堆，保存较小的一半
+    MedianFinder() {
+    }
     void addNum(int num) {
-        if(A.size() != B.size()) {
+        if (A.size() != B.size()) {
             A.push(num);
             B.push(A.top());
             A.pop();
@@ -31,7 +32,7 @@ public:
 int main() {
     // ====== Driver Code ======
     vector<double> res;
-    MedianFinder* medianFinder = new MedianFinder();
+    MedianFinder *medianFinder = new MedianFinder();
     medianFinder->addNum(1);
     medianFinder->addNum(2);
     res.push_back(medianFinder->findMedian());

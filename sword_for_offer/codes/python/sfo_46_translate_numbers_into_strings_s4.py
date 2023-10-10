@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_46_translate_numbers_into_strings_s4.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -17,6 +18,7 @@ class Solution:
             a, b = (a + b if 10 <= 10 * x + y <= 25 else a), a
             y = x
         return a
+
 
 # ======= Test Case =======
 num = 12258

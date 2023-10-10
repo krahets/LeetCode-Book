@@ -13,14 +13,14 @@ import java.util.*;
 class Solution {
     public int[] reversePrint(ListNode head) {
         LinkedList<Integer> stack = new LinkedList<Integer>();
-        while(head != null) {
+        while (head != null) {
             stack.addLast(head.val);
             head = head.next;
         }
         int[] res = new int[stack.size()];
-        for(int i = 0; i < res.length; i++)
+        for (int i = 0; i < res.length; i++)
             res[i] = stack.removeLast();
-    return res;
+        return res;
     }
 }
 

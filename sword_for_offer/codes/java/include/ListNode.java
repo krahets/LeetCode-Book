@@ -12,9 +12,10 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
-    
+
     /**
      * Generate a linked list with an array
+     * 
      * @param arr
      * @return
      */
@@ -30,6 +31,7 @@ public class ListNode {
 
     /**
      * Get a list node with specific value from a linked list
+     * 
      * @param head
      * @param val
      * @return

@@ -1,0 +1,190 @@
+## 解题思路：
+
+题目要求时间复杂度 $O(N)$ ，空间复杂度 $O(1)$ ，因此首先排除 **暴力法** 和 **哈希表统计法** 。
+
+> **简化问题：** 一个整型数组 `nums` 里除 **一个** 数字之外，其他数字都出现了两次。
+
+设整型数组 $nums$ 中出现一次的数字为 $x$ ，出现两次的数字为 $a, a, b, b, ...$ ，即：
+
+$$
+nums = [a, a, b, b, ..., x]
+$$
+
+异或运算有个重要的性质，两个相同数字异或为 $0$ ，即对于任意整数 $a$ 有 $a \oplus a = 0$ 。因此，若将 $nums$ 中所有数字执行异或运算，留下的结果则为 **出现一次的数字 $x$** ，即：
+
+$$
+\begin{aligned}
+& \ \ a \oplus a \oplus b \oplus b \oplus ... \oplus x \\
+= & \ \ 0 \oplus 0 \oplus ... \oplus x \\
+= & \ \ x
+\end{aligned}
+$$
+
+异或运算满足交换律  $a \oplus b = b \oplus a$ ，即以上运算结果与 $nums$ 的元素顺序无关。代码如下：
+
+```Python []
+def singleNumber(self, nums: List[int]) -> List[int]:
+    x = 0
+    for num in nums:  # 1. 遍历 nums 执行异或运算
+        x ^= num      
+    return x;         # 2. 返回出现一次的数字 x
+```
+
+```Java []
+public int[] singleNumber(int[] nums) {
+    int x = 0;
+    for(int num : nums)  // 1. 遍历 nums 执行异或运算
+        x ^= num;
+    return x;            // 2. 返回出现一次的数字 x
+}
+```
+
+```C++ []
+vector<int> singleNumber(vector<int>& nums) {
+    int x = 0;
+    for(int num : nums)  // 1. 遍历 nums 执行异或运算
+        x ^= num;
+    return x;            // 2. 返回出现一次的数字 x
+}
+```
+
+> 设 $nums = [3, 3, 4, 4, 1]$ ，以上计算流程如下图所示。
+
+![Picture1.png](https://pic.leetcode-cn.com/1611393960-EnUIaQ-Picture1.png){:width=500}
+
+> **本题难点：** 数组 $nums$ 有 **两个** 只出现一次的数字，因此无法通过异或直接得到这两个数字。
+
+设两个只出现一次的数字为 $x$ , $y$ ，由于 $x \ne y$ ，则 $x$ 和 $y$ 二进制至少有一位不同（即分别为 $0$ 和 $1$ ），根据此位可以将 $nums$ 拆分为分别包含 $x$ 和 $y$ 的两个子数组。
+
+易知两子数组都满足 「除一个数字之外，其他数字都出现了两次」。因此，仿照以上简化问题的思路，分别对两子数组遍历执行异或操作，即可得到两个只出现一次的数字 $x$, $y$ 。
+
+### 算法流程：
+
+1. **遍历 $nums$ 执行异或：**
+
+- 设整型数组 $nums = [a, a, b, b, ..., x, y]$ ，对 $nums$ 中所有数字执行异或，得到的结果为 $x \oplus y$ ，即：
+
+$$
+\begin{aligned}
+& \ \ a \oplus a \oplus b \oplus b \oplus ... \oplus x \oplus y \\
+= & \ \ 0 \oplus 0 \oplus ... \oplus x \oplus y \\
+= & \ \ x \oplus y
+\end{aligned}
+$$
+
+2. **循环左移计算 $m$ ：**
+
+- 根据异或运算定义，若整数 $x \oplus y$ 某二进制位为 $1$ ，则 $x$ 和 $y$ 的此二进制位一定不同。换言之，找到 $x \oplus y$ 某为 $1$ 的二进制位，即可将数组 $nums$ 拆分为上述的两个子数组。根据与运算特点，可知对于任意整数 $a$ 有：
+
+  - 若 $a \& 0001 \ne 0$ ，则 $a$ 的第一位为 $1$ ；
+  - 若 $a \& 0010 \ne 0$ ，则 $a$ 的第二位为 $1$ ；
+  - 以此类推……
+
+- 因此，初始化一个辅助变量 $m = 1$ ，通过与运算从右向左循环判断，可 **获取整数 $x \oplus y$ 首位 $1$** ，记录于 $m$ 中，代码如下：  
+
+```Python []
+while z & m == 0: # m 循环左移一位，直到 z & m ！= 0
+    m <<= 1
+```
+
+```Java []
+while(z & m == 0) // m 循环左移一位，直到 z & m ！= 0
+    m <<= 1
+```
+
+```C++ []
+while(z & m == 0) // m 循环左移一位，直到 z & m ！= 0
+    m <<= 1
+```
+
+3. **拆分 $nums$ 为两个子数组：**
+4. **分别遍历两个子数组执行异或：**
+
+- 通过遍历判断 $nums$ 中各数字和 $m$ 做与运算的结果，可将数组拆分为两个子数组，并分别对两个子数组遍历求异或，则可得到两个只出现一次的数字，代码如下：
+
+```Python []
+for num in nums:
+    if num & m: x ^= num  # 若 num & m != 0 , 划分至子数组 1 ，执行遍历异或
+    else: y ^= num        # 若 num & m == 0 , 划分至子数组 2 ，执行遍历异或
+return x, y               # 遍历异或完毕，返回只出现一次的数字 x 和 y
+```
+
+```Java []
+for(int num: nums) {
+    if((num & m) != 0) x ^= num;  // 若 num & m != 0 , 划分至子数组 1 ，执行遍历异或
+    else y ^= num;                // 若 num & m == 0 , 划分至子数组 2 ，执行遍历异或
+}
+return new int[] {x, y};          // 遍历异或完毕，返回只出现一次的数字 x 和 y
+```
+
+```C++ []
+for(int num : nums) {
+    if(num & m) x ^= num;   // 若 num & m != 0 , 划分至子数组 1 ，执行遍历异或
+    else y ^= num;          // 若 num & m == 0 , 划分至子数组 2 ，执行遍历异或
+}
+return vector<int> {x, y};  // 遍历异或完毕，返回只出现一次的数字 x 和 y
+```
+
+5. **返回值**：
+
+- 返回只出现一次的数字 x, y 即可。
+
+> 设 $nums = [3, 3, 4, 4, 1, 6]$ ，以上计算流程如下图所示。
+
+![Picture2.png](https://pic.leetcode-cn.com/1614836837-oygHyk-Picture2.png)
+
+### 复杂度分析：
+
+- **时间复杂度 $O(N)$ ：** 线性遍历 $nums$ 使用 $O(N)$ 时间，遍历 $x \oplus y$  二进制位使用 $O(32) = O(1)$ 时间。
+- **空间复杂度 $O(1)$ ：** 辅助变量 $a$ , $b$ , $x$ , $y$ 使用常数大小额外空间。
+
+## 代码：
+
+```Python []
+class Solution:
+    def singleNumbers(self, nums: List[int]) -> List[int]:
+        x, y, n, m = 0, 0, 0, 1
+        for num in nums:         # 1. 遍历异或
+            n ^= num
+        while n & m == 0:        # 2. 循环左移，计算 m
+            m <<= 1       
+        for num in nums:         # 3. 遍历 nums 分组
+            if num & m: x ^= num # 4. 当 num & m != 0
+            else: y ^= num       # 4. 当 num & m == 0
+        return x, y              # 5. 返回出现一次的数字
+```
+
+```Java []
+class Solution {
+    public int[] singleNumbers(int[] nums) {
+        int x = 0, y = 0, n = 0, m = 1;
+        for(int num : nums)               // 1. 遍历异或
+            n ^= num;
+        while((n & m) == 0)               // 2. 循环左移，计算 m
+            m <<= 1;
+        for(int num: nums) {              // 3. 遍历 nums 分组
+            if((num & m) != 0) x ^= num;  // 4. 当 num & m != 0
+            else y ^= num;                // 4. 当 num & m == 0
+        }
+        return new int[] {x, y};          // 5. 返回出现一次的数字
+    }
+}
+```
+
+```C++ []
+class Solution {
+public:
+    vector<int> singleNumbers(vector<int>& nums) {
+        int x = 0, y = 0, n = 0, m = 1;
+        for(int num : nums)         // 1. 遍历异或
+            n ^= num;
+        while((n & m) == 0)         // 2. 循环左移，计算 m
+            m <<= 1;
+        for(int num : nums) {       // 3. 遍历 nums 分组
+            if(num & m) x ^= num;   // 4. 当 num & m != 0
+            else y ^= num;          // 4. 当 num & m == 0
+        }
+        return vector<int> {x, y};  // 5. 返回出现一次的数字
+    }
+};
+```

@@ -15,11 +15,11 @@ class Solution {
         int i = 1;
         double j = 2.0;
         List<int[]> res = new ArrayList<>();
-        while(i < j) {
+        while (i < j) {
             j = (-1 + Math.sqrt(1 + 4 * (2 * target + (long) i * i - i))) / 2;
-            if(i < j && j == (int)j) {
-                int[] ans = new int[(int)j - i + 1];
-                for(int k = i; k <= (int)j; k++)
+            if (i < j && j == (int) j) {
+                int[] ans = new int[(int) j - i + 1];
+                for (int k = i; k <= (int) j; k++)
                     ans[k - i] = k;
                 res.add(ans);
             }

@@ -16,21 +16,26 @@ public class TreeNode {
 
     /**
      * Generate a binary tree with an array
+     * 
      * @param arr
      * @return
      */
     public static TreeNode arrToTree(Integer[] arr) {
         TreeNode root = new TreeNode(arr[0]);
-        Queue<TreeNode> queue = new LinkedList<TreeNode>() {{ add(root); }};
+        Queue<TreeNode> queue = new LinkedList<TreeNode>() {
+            {
+                add(root);
+            }
+        };
         int i = 1;
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            if(arr[i] != null) {
+            if (arr[i] != null) {
                 node.left = new TreeNode(arr[i]);
                 queue.add(node.left);
             }
             i++;
-            if(arr[i] != null) {
+            if (arr[i] != null) {
                 node.right = new TreeNode(arr[i]);
                 queue.add(node.right);
             }
@@ -41,29 +46,35 @@ public class TreeNode {
 
     /**
      * Serialize a binary tree to a list
+     * 
      * @param root
      * @return
      */
     public static List<Integer> treeToList(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if(root == null) return list;
-        Queue<TreeNode> queue = new LinkedList<TreeNode>() {{ add(root); }};
-        while(!queue.isEmpty()) {
+        if (root == null)
+            return list;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>() {
+            {
+                add(root);
+            }
+        };
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            if(node != null) {
+            if (node != null) {
                 list.add(node.val);
                 queue.add(node.left);
                 queue.add(node.right);
-            }
-            else {
+            } else {
                 list.add(null);
             }
         }
         return list;
     }
-    
+
     /**
      * Get a tree node with specific value in a binary tree
+     * 
      * @param root
      * @param val
      * @return

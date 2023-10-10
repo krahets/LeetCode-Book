@@ -1,21 +1,22 @@
 /*
-* File: sfo_22_the_kth_node_from_the_end_of_a_linked_list_s2.cpp
-* Created Time: 2021-12-09
-* Author: Krahets (krahets@163.com)
-*/
+ * File: sfo_22_the_kth_node_from_the_end_of_a_linked_list_s2.cpp
+ * Created Time: 2021-12-09
+ * Author: Krahets (krahets@163.com)
+ */
 
 #include "../include/include.hpp"
 
 // ===== Solution Code =====
 class Solution {
-public:
-    ListNode* getKthFromEnd(ListNode* head, int k) {
+  public:
+    ListNode *getKthFromEnd(ListNode *head, int k) {
         ListNode *former = head, *latter = head;
-        for(int i = 0; i < k; i++) {
-            if(former == nullptr) return nullptr;
+        for (int i = 0; i < k; i++) {
+            if (former == nullptr)
+                return nullptr;
             former = former->next;
         }
-        while(former != nullptr) {
+        while (former != nullptr) {
             former = former->next;
             latter = latter->next;
         }
@@ -25,12 +26,12 @@ public:
 
 int main() {
     // ======= Test Case =======
-    ListNode* head = vectorToLinkedList(vector<int> { 1, 2, 3, 4, 5 });
+    ListNode *head = vectorToLinkedList(vector<int>{1, 2, 3, 4, 5});
     int k = 2;
     // ====== Driver Code ======
-    Solution* slt = new Solution();
-    ListNode* res = slt->getKthFromEnd(head, k);
+    Solution *slt = new Solution();
+    ListNode *res = slt->getKthFromEnd(head, k);
     PrintUtil::printLinkedList(res);
-    
+
     return 0;
 }

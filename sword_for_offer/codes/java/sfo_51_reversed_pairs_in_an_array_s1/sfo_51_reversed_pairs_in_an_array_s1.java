@@ -12,14 +12,17 @@ import java.util.*;
 // ===== Solution Code =====
 class Solution {
     int[] nums, tmp;
+
     public int reversePairs(int[] nums) {
         this.nums = nums;
         tmp = new int[nums.length];
         return mergeSort(0, nums.length - 1);
     }
+
     private int mergeSort(int l, int r) {
         // 终止条件
-        if (l >= r) return 0;
+        if (l >= r)
+            return 0;
         // 递归划分
         int m = (l + r) / 2;
         int res = mergeSort(l, m) + mergeSort(m + 1, r);

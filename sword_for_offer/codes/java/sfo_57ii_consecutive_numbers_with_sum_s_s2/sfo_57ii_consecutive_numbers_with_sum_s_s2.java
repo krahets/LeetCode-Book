@@ -14,14 +14,14 @@ class Solution {
     public int[][] findContinuousSequence(int target) {
         int i = 1, j = 2, s = 3;
         List<int[]> res = new ArrayList<>();
-        while(i < j) {
-            if(s == target) {
+        while (i < j) {
+            if (s == target) {
                 int[] ans = new int[j - i + 1];
-                for(int k = i; k <= j; k++)
+                for (int k = i; k <= j; k++)
                     ans[k - i] = k;
                 res.add(ans);
             }
-            if(s >= target) {
+            if (s >= target) {
                 s -= i;
                 i++;
             } else {

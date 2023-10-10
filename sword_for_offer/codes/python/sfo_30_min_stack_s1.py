@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_30_min_stack_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class MinStack:
@@ -26,6 +27,7 @@ class MinStack:
     def min(self) -> int:
         return self.B[-1]
 
+
 # ====== Driver Code ======
 min_stack = MinStack()
 res = [
@@ -35,6 +37,6 @@ res = [
     min_stack.min(),
     min_stack.pop(),
     min_stack.top(),
-    min_stack.min()
+    min_stack.min(),
 ]
 print(res)

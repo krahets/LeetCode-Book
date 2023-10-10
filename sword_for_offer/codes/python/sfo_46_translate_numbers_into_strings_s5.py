@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_46_translate_numbers_into_strings_s5.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -19,6 +20,7 @@ class Solution:
             a, b = c, a
             y = x
         return a
+
 
 # ======= Test Case =======
 num = 12258

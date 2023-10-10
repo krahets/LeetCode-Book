@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_59-i_sliding_window_maximum_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -23,6 +24,7 @@ class Solution:
             if i >= 0:
                 res.append(deque[0])
         return res
+
 
 # ======= Test Case =======
 nums = [1, 3, -1, -3, 5, 3, 6, 7]

@@ -16,18 +16,23 @@ class Solution {
         boolean[][] dp = new boolean[m][n];
         dp[0][0] = true;
         // 初始化首行
-        for(int j = 2; j < n; j += 2)
+        for (int j = 2; j < n; j += 2)
             dp[0][j] = dp[0][j - 2] && p.charAt(j - 1) == '*';
         // 状态转移
-        for(int i = 1; i < m; i++) {
-            for(int j = 1; j < n; j++) {
-                if(p.charAt(j - 1) == '*') {
-                    if(dp[i][j - 2]) dp[i][j] = true;                                            // 1.
-                    else if(dp[i - 1][j] && s.charAt(i - 1) == p.charAt(j - 2)) dp[i][j] = true; // 2.
-                    else if(dp[i - 1][j] && p.charAt(j - 2) == '.') dp[i][j] = true;             // 3.
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (p.charAt(j - 1) == '*') {
+                    if (dp[i][j - 2])
+                        dp[i][j] = true; // 1.
+                    else if (dp[i - 1][j] && s.charAt(i - 1) == p.charAt(j - 2))
+                        dp[i][j] = true; // 2.
+                    else if (dp[i - 1][j] && p.charAt(j - 2) == '.')
+                        dp[i][j] = true; // 3.
                 } else {
-                    if(dp[i - 1][j - 1] && s.charAt(i - 1) == p.charAt(j - 1)) dp[i][j] = true;  // 1.
-                    else if(dp[i - 1][j - 1] && p.charAt(j - 1) == '.') dp[i][j] = true;         // 2.
+                    if (dp[i - 1][j - 1] && s.charAt(i - 1) == p.charAt(j - 1))
+                        dp[i][j] = true; // 1.
+                    else if (dp[i - 1][j - 1] && p.charAt(j - 1) == '.')
+                        dp[i][j] = true; // 2.
                 }
             }
         }

@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_25_combine_two_sorted_linked_lists_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -18,6 +19,7 @@ class Solution:
             cur = cur.next
         cur.next = l1 if l1 else l2
         return dum.next
+
 
 # ======= Test Case =======
 l1 = list_to_linked_list([1, 2, 4])

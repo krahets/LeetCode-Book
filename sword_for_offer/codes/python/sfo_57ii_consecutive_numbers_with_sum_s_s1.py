@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_57-ii_consecutive_numbers_with_sum_s_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -16,6 +17,7 @@ class Solution:
                 res.append(list(range(i, int(j) + 1)))
             i += 1
         return res
+
 
 # ======= Test Case =======
 target = 9

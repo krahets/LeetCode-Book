@@ -1,22 +1,25 @@
-'''
+"""
 File: sfo_35_clone_a_linked_list_with_next_and_random_pointer_s2.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
 
+
 # Definition for a Node.
 class Node:
-    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+    def __init__(self, x: int, next: "Node" = None, random: "Node" = None):
         self.val = int(x)
         self.next = next
         self.random = random
 
+
 # ===== Solution Code =====
 class Solution:
-    def copyRandomList(self, head: 'Node') -> 'Node':
-        if not head: return
+    def copyRandomList(self, head: "Node") -> "Node":
+        if not head:
+            return
         cur = head
         # 1. 复制各节点，并构建拼接链表
         while cur:
@@ -38,13 +41,14 @@ class Solution:
             cur.next = cur.next.next
             pre = pre.next
             cur = cur.next
-        pre.next = None # 单独处理原链表尾节点
-        return res      # 返回新链表头节点
+        pre.next = None  # 单独处理原链表尾节点
+        return res  # 返回新链表头节点
+
 
 # ======= Test Case =======
 test_case = [[7, None], [13, 0], [11, 4], [10, 2], [1, 0]]
 # Construct nodes
-node_list = [Node(val) for val,_ in test_case]
+node_list = [Node(val) for val, _ in test_case]
 # Build next reference
 for i in range(len(test_case) - 1):
     node_list[i].next = node_list[i + 1]
@@ -61,5 +65,10 @@ res = slt.copyRandomList(head)
 node_list_new = []
 while res:
     node_list_new.append(res)
-    res = res.next 
-print([[node.val, node_list_new.index(node.random) if node.random else None] for node in node_list_new])
+    res = res.next
+print(
+    [
+        [node.val, node_list_new.index(node.random) if node.random else None]
+        for node in node_list_new
+    ]
+)

@@ -11,21 +11,22 @@ using namespace std;
 
 /**
  * @brief Definition for a singly-linked list node
- * 
+ *
  */
 struct ListNode {
     int val;
     ListNode *next;
-    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {
+    }
 };
 
 /**
  * @brief Generate a linked list with a vector
- * 
- * @param list 
- * @return ListNode* 
+ *
+ * @param list
+ * @return ListNode*
  */
-ListNode* vectorToLinkedList(vector<int> list) {
+ListNode *vectorToLinkedList(vector<int> list) {
     ListNode *dum = new ListNode(0);
     ListNode *head = dum;
     for (int val : list) {
@@ -37,12 +38,12 @@ ListNode* vectorToLinkedList(vector<int> list) {
 
 /**
  * @brief Get a list node with specific value from a linked list
- * 
- * @param head 
- * @param val 
- * @return ListNode* 
+ *
+ * @param head
+ * @param val
+ * @return ListNode*
  */
-ListNode* getListNode(ListNode *head, int val) {
+ListNode *getListNode(ListNode *head, int val) {
     while (head != nullptr && head->val != val) {
         head = head->next;
     }

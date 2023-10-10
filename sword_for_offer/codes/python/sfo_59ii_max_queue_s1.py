@@ -1,13 +1,14 @@
-'''
+"""
 File: sfo_59-ii_max_queue_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
 
 # ===== Solution Code =====
 import queue
+
 
 class MaxQueue:
     def __init__(self):
@@ -24,11 +25,13 @@ class MaxQueue:
         self.deque.append(value)
 
     def pop_front(self) -> int:
-        if self.queue.empty(): return -1
+        if self.queue.empty():
+            return -1
         val = self.queue.get()
         if val == self.deque[0]:
             self.deque.popleft()
         return val
+
 
 # ====== Driver Code ======
 max_queue = MaxQueue()
@@ -37,6 +40,6 @@ res = [
     max_queue.push_back(2),
     max_queue.max_value(),
     max_queue.pop_front(),
-    max_queue.max_value()
+    max_queue.max_value(),
 ]
 print(res)

@@ -1,10 +1,11 @@
-'''
+"""
 File: sfo_60_probabilities_for_rolling_n_dices_s1.py
 Created Time: 2021-12-09
 Author: Krahets (krahets@163.com)
-'''
+"""
 
 from include import *
+
 
 # ===== Solution Code =====
 class Solution:
@@ -17,6 +18,7 @@ class Solution:
                     tmp[j + k] += dp[j] / 6
             dp = tmp
         return dp
+
 
 # ======= Test Case =======
 n = 2
