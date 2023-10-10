@@ -40,15 +40,13 @@
   <a href="https://www.hello-algo.com/">
     在线阅读 >
   </a>
-</p> 
+</p>
 
 ### 第二步：刷算法题
 
 1. [Krahets 笔面试精选 88 题](https://leetcode.cn/studyplan/selected-coding-interview/)：由“剑指 Offer”和“Hot 100”组成的高频面试题单。
-2. [图解算法数据结构](https://leetcode.cn/studyplan/coding-interviews/)：题目更贴近实际应用，相对“剑指 Offer”难度有所增加。
+2. [图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)或[Interview-75](https://leetcode.cn/studyplan/coding-interviews/)：题目更贴近实际应用，相对“剑指 Offer”难度有所增加。
 
 ## License
 
-The texts and figures in this repository are licensed under [CC BY-NC-SA-4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-The sample code within this repository is made available under [MIT license](LICENSE-SAMPLECODE).
+The texts, codes and images in this repository are licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
