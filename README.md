@@ -1,10 +1,10 @@
-<p align="left">
+<p align="center">
   <a href="https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/">
     <img src="https://pic.leetcode-cn.com/1599187248-gDiWnC-image.png" width="490">
   </a>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/LeetCode%20tests-75%20accepted-brightgreen">
   <img src="https://img.shields.io/badge/Language-Python-teal">
   <img src="https://img.shields.io/badge/Language-Java-orange">
@@ -17,24 +17,26 @@
 - 题目活跃于各大互联网公司招聘中，可使笔面试准备事半功倍。
 - 致力于行文深入浅出、图文搭配，提供简洁的 Python, Java, C++ 解题代码。
 
+> **Note**
+>
+> 本仓库包含“图解算法数据结构”、“Krahets 笔面试精选 88 题”和“剑指 Offer”的题解内容，所有代码皆可一键运行：
+> 
+> ```python
+> LeetCode-Book
+> ├── leetbook_ioa               # 《图解算法数据结构》题解和专栏文档、代码
+> ├── selected_coding_interview  # 《Krahets 笔面试精选 88 题》题解文档、代码
+> └── sword_for_offer            # 《剑指 Offer》题解文档、代码、刷题计划
+> ```
+
 > 若本 LeetBook 对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
 
-本仓库包含“图解算法数据结构”、“Krahets 笔面试精选 88 题”和“剑指 Offer”的题解内容，所有代码皆可一键运行：
-
-```shell
-LeetCode-Book
-├── leetbook_ioa               # 《图解算法数据结构》题解和专栏文档、代码
-├── selected_coding_interview  # 「Krahets 笔面试精选 88 题」题解文档、代码
-└── sword_for_offer            # 《剑指 Offer》题解文档、代码、刷题计划
-```
-
-## 如何入门算法？
+## 如何学习算法
 
 ### 第一步：看入门书
 
 <p align="left" href="https://github.com/krahets/hello-algo">
-  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="170">
-  <img src="https://www.hello-algo.com/index.assets/hello_algo_mindmap_tp.png" width="280">
+  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="150">
+  <img src="https://www.hello-algo.com/index.assets/hello_algo_mindmap_tp.png" width="260">
 </p>
 
 [《Hello 算法》](https://github.com/krahets/hello-algo)：动画图解、一键运行的数据结构与算法教程。
@@ -61,4 +63,4 @@ LeetCode-Book
 
 ## License
 
-The texts, codes and images in this repository are licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The texts, code and images in this repository are licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
