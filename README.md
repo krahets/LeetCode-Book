@@ -35,8 +35,7 @@
 ### 第一步：看入门书
 
 <p align="left" href="https://github.com/krahets/hello-algo">
-  <img src="https://www.hello-algo.com/index.assets/conceptual_rendering.png" width="150">
-  <img src="https://www.hello-algo.com/index.assets/hello_algo_mindmap_tp.png" width="260">
+  <img src="https://www.hello-algo.com/index.assets/hello_algo_header.png" width="700">
 </p>
 
 [《Hello 算法》](https://github.com/krahets/hello-algo)：动画图解、一键运行的数据结构与算法教程。
