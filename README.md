@@ -50,11 +50,11 @@
 2. [图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)（[Interview-75](https://leetcode.cn/studyplan/coding-interviews/)）：题目更贴近实际应用，相较于“剑指 Offer”难度有所增加。
 3. [LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/)：力扣用户最喜爱的 100 道题。
 4. [面试经典 150 题](https://leetcode.cn/studyplan/top-interview-150/)：150 道经典面试力扣题。
-5. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选面试必备的 75 道核心题目。
+5. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选 75 道面试核心题目。
 
 对初学者的刷题建议：
 
-1. 建议每日刷 2~3 题。若能轻松完成，可以尝试增加至 5～8 题。
+1. 建议每日刷 2～3 题。若能轻松完成，可以尝试增加至 5～8 题。
 2. 刷题的质量远重要于数量。务必确保你真正理解了每个题目的解法及背后的算法原理。
 3. 建议你按照目录顺序做题。如果感觉某题很难，可以先跳过，后续再攻克。
 4. 题目通常有不止一种解法，请你注意比较和探讨各种方法的特点和适用情况。
