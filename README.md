@@ -38,13 +38,18 @@
   <img src="https://www.hello-algo.com/index.assets/hello_algo_header.png" width="550">
 </p>
 
-[《Hello 算法》](https://github.com/krahets/hello-algo)：动画图解、一键运行的数据结构与算法教程。
+<p align="center">
+  <a href="https://github.com/krahets/hello-algo">《Hello 算法》</a> —— 动画图解、一键运行的数据结构与算法教程
+</p>
 
-这本书旨在引导初学者探索数据结构与算法的知识地图，掌握刷题需要的前置知识与工具库。
+此书旨在引导初学者探索数据结构与算法的知识地图，掌握刷题需要的前置知识与工具库。
+
+> [!TIP]
+> 建议先读完这本书（概括且全面地了解数据结构与算法），再开始刷题（深入探索各类算法和数据结构）。
 
 ### 第二步：刷算法题
 
-推荐以下 LeetCode 题单（前两项 [@Krahets](https://leetcode.cn/u/jyd/) 题解全覆盖）：
+推荐以下 LeetCode 题单：
 
 1. [Krahets 笔面试精选 88 题](https://leetcode.cn/studyplan/selected-coding-interview/)：从“剑指 Offer”和“热题 100”精选出的 88 道高频算法笔试题，适合初学者入门。
 2. [图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)（[Interview-75](https://leetcode.cn/studyplan/coding-interviews/)）：题目更贴近实际应用，相较于“剑指 Offer”难度有所增加。
@@ -52,14 +57,17 @@
 4. [面试经典 150 题](https://leetcode.cn/studyplan/top-interview-150/)：150 道经典面试力扣题。
 5. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选 75 道面试核心题目。
 
-对初学者的刷题建议：
+> [!TIP]
+> 第 `1.`、`2.` 项的题目分类与《Hello 算法》的章节内容对应，且包含 [@krahets](https://leetcode.cn/u/jyd/) 写的题目解析，适合作为配套习题。
+
+对初学者刷题的一些建议：
 
 1. 建议每日刷 2～3 题。若能轻松完成，可以尝试增加至 5～8 题。
-2. 刷题的质量远重要于数量。务必确保你真正理解了每个题目的解法及背后的算法原理。
-3. 建议你按照目录顺序做题。如果感觉某题很难，可以先跳过，后续再攻克。
+2. 刷题的质量比数量更加重要。请确保你真正理解了每个题目的解法及背后的算法原理。
+3. 建议你按照题单目录的顺序做题。如果感觉一道题很难，可以先跳过，后续再攻克。
 4. 题目通常有不止一种解法，请你注意比较和探讨各种方法的特点和适用情况。
-5. 如果你发现自己遗忘了题目解法，不必灰心。艾宾浩斯遗忘曲线指出，通常需要复习至少三次，才能真正掌握一个知识点。
-6. 行百里者半九十。坚持至关重要，加油，相信你可以做到！
+5. 如果你发现自己遗忘了题目解法，不必灰心；我们通常需要复习三次以上，才能真正掌握一个知识点。
+6. 行百里者半九十。坚持至关重要，加油！
 
 ## License
 
