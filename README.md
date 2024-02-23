@@ -27,8 +27,8 @@
 > ├── selected_coding_interview  # 《Krahets 笔面试精选 88 题》题解文档
 > └── sword_for_offer            # 《剑指 Offer》题解文档、代码、刷题计划
 > ```
->
-> 若本 LeetBook 对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
+
+> 若本仓库对您有所帮助，请在页面右上角点个 **Star** :star: 支持一下，谢谢！
 
 ## 如何学习算法
 
@@ -58,7 +58,7 @@
 5. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选 75 道面试核心题目。
 
 > [!TIP]
-> 第 `1.`、`2.` 项的题目分类与《Hello 算法》的章节内容对应，且包含 [@krahets](https://leetcode.cn/u/jyd/) 写的题目解析，适合作为配套习题。
+> 第 `1.` `2.` 项的题目分类与《Hello 算法》的章节内容对应，且提供 [@krahets](https://leetcode.cn/u/jyd/) 写的题解，适合作为配套习题。
 
 对初学者刷题的一些建议：
 
