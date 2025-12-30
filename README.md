@@ -19,13 +19,13 @@
 
 > [!NOTE]  
 >
-> 本仓库包含“图解算法数据结构”、“Krahets 笔面试精选 88 题”和“剑指 Offer”的题解内容：
+> 本仓库包含：
 > 
 > ```python
 > LeetCode-Book
-> ├── leetbook_ioa               # 《图解算法数据结构》题解和专栏文档
-> ├── selected_coding_interview  # 《Krahets 笔面试精选 88 题》题解文档
-> └── sword_for_offer            # 《剑指 Offer》题解文档、代码、刷题计划
+> ├── sword_for_offer            # 《剑指 Offer》题目解析、配套代码、刷题计划
+> ├── selected_coding_interview  # 《Krahets 笔面试精选 88 题》题目解析、配套代码
+> └── leetbook_ioa               # 《图解算法数据结构》题目解析
 > ```
 
 > 若本仓库对您有所帮助，请在页面右上角点个 **Star** :star: 支持一下，谢谢！
@@ -52,13 +52,9 @@
 推荐以下 LeetCode 题单：
 
 1. [Krahets 笔面试精选 88 题](https://leetcode.cn/studyplan/selected-coding-interview/)：从“剑指 Offer”和“热题 100”精选出的 88 道高频算法笔试题，适合初学者入门。
-2. [图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)（[Interview-75](https://leetcode.cn/studyplan/coding-interviews/)）：题目更贴近实际应用，相较于“剑指 Offer”难度有所增加。
-3. [LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/)：力扣用户最喜爱的 100 道题。
-4. [面试经典 150 题](https://leetcode.cn/studyplan/top-interview-150/)：150 道经典面试力扣题。
-5. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选 75 道面试核心题目。
-
-> [!TIP]
-> 第 `1.` `2.` 项的题目分类与《Hello 算法》的章节内容对应，且提供 [@krahets](https://leetcode.cn/u/jyd/) 写的题解，适合作为配套习题。
+2. [LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/)：力扣用户最喜爱的 100 道题。
+3. [面试经典 150 题](https://leetcode.cn/studyplan/top-interview-150/)：150 道经典面试力扣题。
+4. [LeetCode-75](https://leetcode.cn/studyplan/leetcode-75/)：精选 75 道面试核心题目。
 
 对初学者刷题的一些建议：
 
